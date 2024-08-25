@@ -1,0 +1,73 @@
+.module {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 320px;
+  min-height: 250px;
+  position: relative;
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.module:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+}
+
+.module-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.module-name {
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  background: none;
+  width: calc(100% - 150px);
+  text-align: left;
+  padding: 5px;
+  border-bottom: 2px solid #ddd;
+  outline: none;
+}
+
+.module-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.add-resource-btn,
+.delete-module-btn {
+  padding: 8px 16px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.add-resource-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.add-resource-btn:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+}
+
+.delete-module-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.delete-module-btn:hover {
+  background-color: #c82333;
+  transform: scale(1.05);
+}
+
+.resources {
+  margin-top: 15px;
+}

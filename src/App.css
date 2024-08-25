@@ -1,0 +1,41 @@
+.App {
+  font-family: "Arial", sans-serif;
+  padding: 20px;
+  background-color: #f7f9fc;
+  min-height: 100vh;
+}
+
+.App-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.App-header h1 {
+  margin: 0;
+  font-size: 28px;
+  color: #333;
+}
+
+.add-module-btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.add-module-btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.modules-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}

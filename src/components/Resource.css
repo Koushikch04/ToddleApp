@@ -1,0 +1,47 @@
+.resource {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border-radius: 6px;
+  padding: 12px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: move;
+  transition: background-color 0.2s ease;
+}
+
+.resource:hover {
+  background-color: #f1f1f1;
+}
+
+.resource-icon {
+  font-size: 20px;
+  margin-right: 12px;
+}
+
+.resource-name {
+  flex: 1;
+  font-size: 16px;
+  border: none;
+  background: none;
+  padding: 6px;
+  border-radius: 4px;
+  outline: none;
+  color: #333;
+}
+
+.delete-resource-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.delete-resource-btn:hover {
+  background-color: #c82333;
+  transform: scale(1.05);
+}
